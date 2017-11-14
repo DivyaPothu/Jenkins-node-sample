@@ -1,5 +1,5 @@
-#!/bin/bash
-#
+!/bin/bash
+
 # login in the jenkins server with:
 #
 # heroku login
