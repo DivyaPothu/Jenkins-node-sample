@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var port = process.env.PORT || 4000;
 
 app.get('/',function(req,res){
 	res.send("continuous deployment!! Hello Heroku");
@@ -7,5 +8,5 @@ app.get('/',function(req,res){
     //res.send("hello jenkins.....");
   });
 
-app.listen(5000);
+app.listen(port);
 console.log('port is running at 5000');
