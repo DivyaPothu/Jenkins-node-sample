@@ -1,8 +1,0 @@
--#!/bin/sh      
-ssh a1002618@10.132.33.168  <<EOF       
- cd /sample-jenkins 
- git pull       
- npm install --production       
- pm2 restart all
- exit       
-EOF
